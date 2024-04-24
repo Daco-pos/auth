@@ -6,7 +6,7 @@ import {
 } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 import { firstValueFrom, of } from 'rxjs';
-import { statusMessages } from 'src/app/app.constant';
+import { statusMessages } from 'src/utils/constants';
 
 @Injectable()
 export class ResponseInterceptor implements NestInterceptor {
